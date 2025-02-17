@@ -20,7 +20,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #70b4ea;;
+  /* background-color: #70b4ea; */
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -52,12 +52,7 @@ nav img {
   width: 230px;
   position: relative;
 }
-.contact a{
-  background-color: #70b4ea;
-  border-radius: 15px;
-  padding-inline: 10px;
-  padding-block: 5px;
-}
+
 .contact :hover{
   color:aqua;
   background-color:#b4d7ef;
@@ -201,8 +196,24 @@ header::before {
  
 
 nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* background-color: #70b4ea; */
   align-items: center;
- display: flex;
+  justify-content: space-between;
+  display: flex;
+  z-index: 3;
+}
+
+
+nav ul{
+  align-items: center;
+  padding-block: 0px;
+  padding-inline: 0px;
+  list-style: none;
+  gap: 15px;
+  display: flex;
 }
 
 
@@ -214,9 +225,6 @@ nav img {
   position: relative;
 }
 
-nav ul{
-  display: none ;
-}
 
 .menu i{
   height: 200px;
@@ -230,8 +238,8 @@ header h1 {
   font-size: 25px;
   font-weight: 900;
   color: white(191, 151, 64);
- text-shadow:  0 0 5px #fff, /* White glow */
-    0 0 10px #70b4ea, 
+ text-shadow: 
+    0 0 5px #fff, 
     0 0 40px #b2d7e8, /* Green glow (change color as desired) */ 
     0 0 150px #1b0d87;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
