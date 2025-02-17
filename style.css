@@ -183,8 +183,9 @@ size:50px;
   header{
     /* background-image: url(./IMAGES/GAC\ MMA.jpg); */
     background-color: rgb(3, 25, 62);
-backdrop-filter: 100px;
+    backdrop-filter: 100px;
     position: relative;
+    height: 700px;
 }
 
 header::before {
@@ -244,7 +245,8 @@ p {
 }
 
 .h1st h1 {
-  padding-top: 90px;
+  
+  padding-top: 250px;
    font-size: 55px;
    color: rgb(226, 232, 234);
    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -252,6 +254,13 @@ p {
    text-align: center;
    position: relative;
  }
+
+ 
+.classone{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+max-width:500px ;
+  color: white}
+
  p {
    font-size: 12px;
    text-align: center;
