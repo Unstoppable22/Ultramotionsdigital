@@ -181,7 +181,8 @@ size:50px;
 @media only screen and (max-width: 600px){
   
   header{
-    background-image: url(./IMAGES/GAC\ MMA.jpg);
+    /* background-image: url(./IMAGES/GAC\ MMA.jpg); */
+    background-color: rgb(3, 25, 62);
 backdrop-filter: 100px;
     position: relative;
 }
