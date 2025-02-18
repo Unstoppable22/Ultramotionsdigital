@@ -15,6 +15,16 @@ header {
   /* overflow: hidden; */
 }
 
+header::before {
+  position:fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(2, 15, 26, 0.7);
+  z-index: 0;
+}
 
 
 nav {
@@ -25,7 +35,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   display: flex;
-  z-index: 3;
 }
 
 nav ul{
@@ -35,6 +44,7 @@ nav ul{
   list-style: none;
   gap: 15px;
   display: flex;
+  z-index: 3;
 }
 nav ul :hover{
   text-decoration: underline red;
@@ -62,8 +72,8 @@ nav img {
 
 .h1st h1 {
   text-shadow: 0 0 5px WHITE,
-  0 0 40px lightblue,
-  0 0 120px rgb(58, 141, 218);
+  0 0 30px lightblue,
+  0 0 80px rgb(58, 141, 218);
  padding-top: 230px;
   font-size: 70px;
   color: rgb(226, 232, 234);
@@ -73,9 +83,8 @@ nav img {
   position: relative;
 }
 p {
-  text-shadow: 0 0 5px WHITE,
-  0 0 40px lightblue,
-  0 0 120px rgb(58, 141, 218);
+  text-shadow:
+  0 0 5px lightblue;
   font-size: 25px;
   text-align: center;
   color:white;
