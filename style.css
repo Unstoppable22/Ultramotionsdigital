@@ -53,12 +53,6 @@ nav img {
   position: relative;
 }
 
-.contact :hover{
-  color:aqua;
-  background-color:#b4d7ef;
-
-}
-
 
 .menu a{
   display: none;
@@ -104,18 +98,18 @@ p {
   padding-top: 30px;
   /* display: flex; */
   gap: 20px;
+  background-color: rgb(3, 25, 62);
   background-size: cover;
   background-attachment: fixed;
-  background-image: url(./IMAGES/billboard.jpeg);
-  background-color: rgb(218, 177, 169);
- 
-}
-.divone{
-display: flex;
-flex-direction: column;
-gap: 30px;
-align-items: center;
-}
+  /* background-image: url(./IMAGES/billboard.jpeg); */ 
+  }
+  .divone{
+  display: flex;
+  flex-direction: column;
+  padding-inline: 0px;
+  gap: 30px;
+  align-items: center;
+  }
 
 .part-one{
   justify-content: center;
@@ -196,7 +190,7 @@ header::before {
  
 
 nav {
-  position: fixed;
+  position:absolute;
   top: 0;
   width: 100%;
   /* background-color: #70b4ea; */
@@ -208,19 +202,19 @@ nav {
 
 
 nav ul{
+  padding-right: 140px;
   align-items: center;
-  padding-block: 90px;
-  padding-inline: 900px;
   list-style: none;
-  gap: 15px;
+  gap: 10px;
   display: flex;
+  display: none;
 }
 
 
 nav img {
-  padding-left: 140px;
-  height: 70px;
-  width: 100px;
+  padding-left: 100px;
+  height: 120px;
+  width: 200px;
   z-index: 2;
   position: relative;
 }
@@ -253,8 +247,7 @@ p {
 }
 
 .h1st h1 {
-  
-  padding-top: 250px;
+    padding-top: 250px;
    font-size: 55px;
    color: rgb(226, 232, 234);
    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -263,13 +256,7 @@ p {
    position: relative;
  }
 
- 
-.classone{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-max-width:500px ;
-  color: white}
-
- p {
+  p {
    font-size: 12px;
    text-align: center;
    color:white;
@@ -281,12 +268,20 @@ max-width:500px ;
 .section {
   /* overflow: hidden; */
   padding-top: 30px;
-  padding-left: 15px;
+  padding-left: 0px;
   display: flex;
   gap: 10px;
   background-size: cover;
   background-attachment: fixed;
 }
+
+.divone{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  }
+
 .part-one{
   justify-content: center;
   background-color: rgb(3, 25, 62);
@@ -294,18 +289,25 @@ max-width:500px ;
   display: flex;
   padding-inline: 0px;
   max-width: 900px;
-  border-radius: 25px;
+  border-radius: 5px;
   padding-bottom: 40px;
 }
 .part-one h2{
-  padding-left: 40px;
   color: white;
+  text-align: center;
   padding-top: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   margin-bottom: 5px;
   z-index: 6;
 }
+
+
+.classone{
+  max-width: 390px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white}
+
 
 .part-two h5{
   color: white;
@@ -317,7 +319,7 @@ max-width:500px ;
  width: 70px;
 }
 .images{
-  gap: 05px;
+  gap: 0px;
   display: flex;
 }
 
