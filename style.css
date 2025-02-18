@@ -18,7 +18,7 @@ header {
 
 
 nav {
-  position: fixed;
+  position:static;
   top: 0;
   width: 100%;
   /* background-color: #70b4ea; */
