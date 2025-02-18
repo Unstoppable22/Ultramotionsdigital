@@ -7,7 +7,7 @@ header {
 
   /* background-image: url(./IMAGES/billboard.jpeg); */
   background-color: rgb(3, 25, 62);
-  height: 500px;
+  height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -61,6 +61,9 @@ nav img {
 }
 
 .h1st h1 {
+  text-shadow: 0 0 5px WHITE,
+  0 0 40px lightblue,
+  0 0 120px rgb(58, 141, 218);
  padding-top: 230px;
   font-size: 70px;
   color: rgb(226, 232, 234);
@@ -70,6 +73,9 @@ nav img {
   position: relative;
 }
 p {
+  text-shadow: 0 0 5px WHITE,
+  0 0 40px lightblue,
+  0 0 120px rgb(58, 141, 218);
   font-size: 25px;
   text-align: center;
   color:white;
@@ -213,7 +219,7 @@ nav ul{
 
 
 nav img {
-  padding-left: 90px;
+  padding-left: 9 0px;
   height: 120px;
   width: 200px;
   z-index: 2;
