@@ -209,8 +209,8 @@ nav {
 
 nav ul{
   align-items: center;
-  padding-block: 0px;
-  padding-inline: 0px;
+  padding-block: 90px;
+  padding-inline: 900px;
   list-style: none;
   gap: 15px;
   display: flex;
@@ -227,10 +227,10 @@ nav img {
 
 
 .menu i{
-  height: 200px;
+  height: 00px;
   width: 290px;
   padding-left: 50px;
-  display: block;
+  display: none;
 }
 
 
