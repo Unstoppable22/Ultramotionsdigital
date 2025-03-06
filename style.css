@@ -267,7 +267,7 @@ footer {
   }
 
   nav img {
-    padding-left: 150px;
+    padding-left: 100px;
     height: 120px;
     width: 200px;
     z-index: 2;
@@ -417,7 +417,7 @@ h6 {
 .lasticon{
   z-index: 3;
   padding-top: 10px;
-  padding-left: 60px;
+  padding-left: 30px;
   display: flex;
   gap: 20px;
 }
