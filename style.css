@@ -228,29 +228,27 @@ footer {
 
 /* MOBILE */
 @media only screen and (max-width: 600px) {
-  @keyframes example {
-    0% {background-color: #1b0d87;}
-    25% {background-color: #fff;}
-    
-  }
+
+header{
+  background-color: black;
+  animation: motions 1s ease-in-out ;
+}
 
   header {
-    animation-duration: 5s;
-    animation-name: example;
     background-image: url(./IMAGES/GAC\ MMA.jpg);
-    background-color: rgb(3, 25, 62);
     backdrop-filter: 100px;
     position: relative;
     height: 700px;
-    animation: motions 1s ease-in-out;
+    animation: motions 1s ease-inwt5;
   }
 
   @keyframes motions {
     0%{transform: scale3d(1);}
-    50%{transform: scale(1.3);}
-    100%{transform: scale(1);}
+    50%{transform: scale(3.3);}
+    100%{transform: scale3d(1);}
     
   }
+  
 
   header::before {
     position: fixed;
