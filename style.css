@@ -318,17 +318,10 @@ footer {
 @media only screen and (max-width: 600px) {
 
 header{
-  background-color: black;
   animation: motions 1s ease-in-out ;
-}
-
-  header {
-    background-image: url(./IMAGES/billboard.jpeg);
-    backdrop-filter: 100px;
+     background-color: rgb(3, 25, 62);
     position: relative;
     height: 700px;
-    background-size: cover;
-    background-position: center;
     animation: motions 1s ease-inwt5;
   }
 
@@ -347,7 +340,6 @@ header{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(2, 15, 26, 0.7);
     z-index: 0;
   }
   
@@ -356,7 +348,6 @@ header{
     position: absolute;
     top: 0;
     width: 100%;
-    /* background-color: #70b4ea; */
     justify-content: space-between;
     display: flex;
     z-index: 3;
