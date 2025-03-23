@@ -1,10 +1,16 @@
 section{
-  overflow: hidden;
-  display: grid;
-  grid-template-columns: 1fr 1fr 3fr;
+display: flex;
 }
 
-.billboard-card {
+article{
+  display: flex;
+}
+
+aside{
+  display: flex;
+}
+
+.Lampost-card{
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 2rem;
@@ -14,12 +20,12 @@ section{
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   font-family: 'Arial', sans-serif;
 }
-.billboard-card img{
-  height: 300px;
+.Lampost-card img{
+  height: 350px;
   width: 400px;
 }
 
-.billboard-title {
+.Lampost-title{
   color: lightblue;
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
@@ -27,9 +33,10 @@ section{
   padding-bottom: 0.5rem;
 }
 
-.billboard-details {
+.Lampost-details{
   margin: 1rem 0;
 }
+
 
 .detail-row {
   display: flex;
@@ -84,7 +91,7 @@ dd {
       padding: 1.5rem;
   }
   
-  .billboard-title {
+  .lampost-title {
       font-size: 1.3rem;
   }
   
@@ -95,14 +102,27 @@ dd {
 
 /* MOBILE */
 @media only screen and (max-width: 600px) {
-  overflow: hidden;
-  section {
-    display: block;
-      display: grid;
-      grid-template-columns: 1fr;
-      width: 100%;
-      margin-bottom: 10px;
+  section{
+    display: flex;
+    flex-direction: column;
     }
+    
+    article{
+      flex-direction: column;
+      display: flex;
+    }
+    
+    aside{
+      flex-direction: column;
+      display: flex;
+    }
+    
+  
+  
+  section {
+    display: flex;
+    flex-direction: column;
+  }
     
 
 }
