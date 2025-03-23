@@ -327,6 +327,8 @@ header{
     backdrop-filter: 100px;
     position: relative;
     height: 700px;
+    background-size: cover;
+    background-position: center;
     animation: motions 1s ease-inwt5;
   }
 
