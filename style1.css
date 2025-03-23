@@ -1,0 +1,107 @@
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+}
+
+.billboard-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 400px;
+  margin: 1rem;
+  background-color: rgb(3, 25, 62);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+}
+.billboard-card img{
+  height: 300px;
+  width: 400px;
+}
+
+.billboard-title {
+  color: lightblue;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid lightblue;
+  padding-bottom: 0.5rem;
+}
+
+.billboard-details {
+  margin: 1rem 0;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+dt {
+  font-weight: 600;
+  color: #7f8c8d;
+  flex: 1;
+}
+
+dd {
+  color: lightblue;
+  flex: 2;
+  text-align: right;
+  margin: 0;
+}
+
+.select-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.select-button:hover {
+  background-color: #2980b9;
+}
+
+.card-footer {
+  text-align: center;
+  color: lightblue;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 480px) {
+  .billboard-card {
+      padding: 1.5rem;
+  }
+  
+  .billboard-title {
+      font-size: 1.3rem;
+  }
+  
+  dd, dt {
+      font-size: 0.9rem;}
+
+}
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+
+  section {
+    display: block;
+      display: grid;
+      grid-template-columns: 1fr;
+
+    }
+    
+}
+
+}

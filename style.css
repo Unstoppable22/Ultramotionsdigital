@@ -77,6 +77,7 @@ nav img {
     background-color:  rgb(3, 25, 62); /* Change this to a darker color for better contrast */
     color: white;
     font-size: 20px; /* Ensure readable font size */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: left 0.3s ease; /* Smooth transition for the sidebar */
     padding-top: 50px;
     z-index: 1000; /* Ensure it appears above other content */
