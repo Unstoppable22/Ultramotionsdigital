@@ -3,35 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ultramotions</title>
+    <title>UltraMotions</title>
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <script src="./app.js"></script>
     <header>
       <nav>
-        <img src="./IMAGES/logo.png" alt="logo"/>
+        <img src="./IMAGES/logo.png" alt="logo" />
         <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Help</a></li>
-            <li><a href="">Career</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        <!-- <div class="Menu">
-          <a href=""><i class="fa fa-address-book" aria-hidden="true"> </i></a> -->
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="Menu" onclick="toggleSidebar()">
+          <i class="fas fa-bars"></i>
         </div>
       </nav>
+      <!-- Sidebar -->
+      <!-- <div> -->
+        <ul id="sidebar" class="sidebar">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
       <div class="h1st">
         <h1>Adverts That Speaks Volumes</h1>
       </div>
@@ -45,34 +52,37 @@
     <div class="section">
       <div class="divone">
         <div class="part-one">
-          <h2>See your brands in light</h2>
+          <h2>See Your Brands in Light</h2>
           <p class="classone">
             Illuminate your brand's story across Lagos. Transform visibility
-            into impact, with our dazzling Outdoor Ad solutions that captivates,
-            connect and convert.
+            into impact with our dazzling Outdoor Ad solutions that captivate,
+            connect, and convert.
           </p>
         </div>
         <div class="part-two">
-          <h5>Service We Offer</h5>
+          <h5>Services We Offer</h5>
           <marquee behavior="" direction="">
-        <div class="images">
-            <a href=""><div><img src="./IMAGES/mano static.jpeg" alt=""><h6>STATIC BILLBOARD</h6></div>
-          <a href=""><div><img src="./IMAGES/yap13.png" alt=""><h6>LAMPOST</h6></div>
-            <a href=""><div><img src="./IMAGES/Curtix-BRT-Bus-branding.jpg"alt=""><h6>BUS BRANDING</h6></div>
-           <a href=""><div><img src="./IMAGES/led.jpeg" alt=""><h6>LED BILLBOARD</h6></div></a>
-              <a href=""><div><img src="./IMAGES/Digital-marketing-copy11.jpg" alt=""><h6>DIGITAL MARKETING</h6></div></a> 
-        </div></marquee>
-
+            <div class="images">
+              <a href="#"><div><img src="./IMAGES/mano static.jpeg" alt=""><h6>STATIC BILLBOARD</h6></div></a>
+              <a href="#"><div><img src="./IMAGES/yap13.png" alt=""><h6>LAMPOST</h6></div></a>
+              <a href="#"><div><img src="./IMAGES/Curtix-BRT-Bus-branding.jpg" alt=""><h6>BUS BRANDING</h6></div></a>
+              <a href="#"><div><img src="./IMAGES/led.jpeg" alt=""><h6>LED BILLBOARD</h6></div></a>
+              <a href="#"><div><img src="./IMAGES/Digital-marketing-copy11.jpg" alt=""><h6>DIGITAL MARKETING</h6></div></a> 
+            </div>
+          </marquee>
         </div>
       </div>
     </div>
+
     <footer>
-    <div class="fmg"><a href=""><img src="./IMAGES/logo.png" alt=""/></a></div>
-    <div class="lasticon">
-     <a href="www.google.com"><img src="./IMAGES/icon-facebook.svg" alt=""></a>
-      <a href=""><img src="./IMAGES/icon-instagram.svg" alt=""></a>
-      <a href=""><img src="./IMAGES/icon-twitter.svg" alt=""></a>
-    </div>
+      <div class="fmg"><a href="#"><img src="./IMAGES/logo.png" alt=""/></a></div>
+      <div class="lasticon">
+        <a href="#"><img src="./IMAGES/icon-facebook.svg" alt=""></a>
+        <a href="#"><img src="./IMAGES/icon-instagram.svg" alt=""></a>
+        <a href="#"><img src="./IMAGES/icon-twitter.svg" alt=""></a>
+      </div>
     </footer>
+    
+    <script src="./app.js"></script>
   </body>
 </html>
