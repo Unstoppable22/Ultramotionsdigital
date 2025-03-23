@@ -1,4 +1,5 @@
 section{
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr 3fr;
 }
@@ -94,7 +95,6 @@ dd {
 
 /* MOBILE */
 @media only screen and (max-width: 600px) {
-
   section {
     display: block;
       display: grid;
