@@ -469,6 +469,7 @@ footer {
     display: flex;
     padding-inline: 0px;
     max-width: 900px;
+    padding-left: 50px;
     border-radius: 5px;
     padding-bottom: 40px;
   }
