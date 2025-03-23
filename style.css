@@ -74,7 +74,7 @@ nav img {
     left: -250px; /* Sidebar starts off-screen */
     width: 230px; /* Adjust width of sidebar */
     height: 95%;
-    background-color: #2c3e50; /* Change this to a darker color for better contrast */
+    background-color:  rgb(3, 25, 62); /* Change this to a darker color for better contrast */
     color: white;
     font-size: 20px; /* Ensure readable font size */
     transition: left 0.3s ease; /* Smooth transition for the sidebar */
@@ -83,7 +83,7 @@ nav img {
   
   }
   .sidebar :hover{
-    text-decoration: underline lightblue ;
+    text-decoration: underline red ;
   }
   
  
@@ -94,7 +94,7 @@ nav img {
   
   .sidebar li a {
     text-align: center;
-    color: rgb(3, 11, 25);
+    color:  lightblue;
     text-decoration: none;
     font-size: 30px;
     display: block; /* Ensure the links take up the full width */
@@ -386,7 +386,7 @@ footer {
 .sidebar{
   border: none;
   display:block;
-  background-color: #2c3e50; /* Dark background for visibility */
+  background-color:  rgb(3, 12, 30); /* Dark background for visibility */
   left: -250px; /* Sidebar initially hidden */
   z-index: 1000;
 }
