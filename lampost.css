@@ -103,33 +103,19 @@ dd {
 /* MOBILE */
 @media only screen and (max-width: 600px) {
   section{
-    width: 100%;
     display: flex;
     flex-direction: column;
     }
-    
-    article{
-      width: 100%;
 
+
+    article{
       flex-direction: column;
       display: flex;
     }
     
     aside{
-      width: 100%;
-
-      flex-direction: column;
       display: flex;
+      flex-direction: column;
     }
-    
-  
-  
-  section {
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-  }
-    
 
 }
