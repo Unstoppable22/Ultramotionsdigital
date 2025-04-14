@@ -86,19 +86,6 @@ dd {
   margin-top: 1rem;
 }
 
-@media (max-width: 480px) {
-  .billboard-card {
-      padding: 1.5rem;
-  }
-  
-  .lampost-title {
-      font-size: 1.3rem;
-  }
-  
-  dd, dt {
-      font-size: 0.9rem;}
-
-}
 
 /* MOBILE */
 @media only screen and (max-width: 600px) {
